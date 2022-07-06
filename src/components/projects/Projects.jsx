@@ -1,7 +1,8 @@
 import React from 'react'
+import { Sidebar } from '../layout/Sidebar'
 
 export const Projects = () => {
     return (
-        <div>Projects</div>
+        <Sidebar />
     )
 }
