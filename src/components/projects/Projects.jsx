@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import { Navbar } from '../layout/Navbar'
 import { Sidebar } from '../layout/Sidebar'
 
 export const Projects = () => {
     return (
-        <Sidebar />
+        <Fragment>
+            <Navbar />
+            <Sidebar />
+        </Fragment>
     )
 }
